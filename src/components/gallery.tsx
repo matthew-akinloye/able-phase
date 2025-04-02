@@ -19,7 +19,7 @@ export function Gallery() {
     { id: "living", name: "Living Areas" },
     { id: "bedroom", name: "Bedrooms" },
     { id: "kitchen", name: "Kitchen" },
-    { id: "bathroom", name: "Bathrooms" },
+    // { id: "bathroom", name: "Bathrooms" },
     { id: "outdoor", name: "Outdoor Spaces" },
   ];
 
