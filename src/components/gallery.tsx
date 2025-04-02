@@ -111,137 +111,137 @@ export function Gallery() {
 
     {
       src: "/bedroom/able (2).jpg?height=600&width=800",
-      alt: "Master Bedroom Suite",
+      alt: "Bedroom Suite",
       category: "bedroom",
       description:
-        "Spacious master bedroom with premium king-size bed and luxury linens",
+        "Spacious bedroom with premium king-size bed and luxury linens",
     },
     {
       src: "/bedroom/able (3).jpg?height=600&width=800",
-      alt: "Master Bedroom Suite",
+      alt: "Bedroom Suite",
       category: "bedroom",
       description:
-        "Spacious master bedroom with premium king-size bed and luxury linens",
+        "Spacious bedroom with premium king-size bed and luxury linens",
     },
     {
       src: "/bedroom/able (15).jpg?height=600&width=800",
-      alt: "Master Bedroom Suite",
+      alt: "Bedroom Suite",
       category: "bedroom",
       description:
-        "Spacious master bedroom with premium king-size bed and luxury linens",
+        "Spacious bedroom with premium king-size bed and luxury linens",
     },
     {
       src: "/bedroom/able (16).jpg?height=600&width=800",
-      alt: "Master Bedroom Suite",
+      alt: "Bedroom Suite",
       category: "bedroom",
       description:
-        "Spacious master bedroom with premium king-size bed and luxury linens",
+        "Spacious bedroom with premium king-size bed and luxury linens",
     },
     {
       src: "/bedroom/able (17).jpg?height=600&width=800",
-      alt: "Master Bedroom Suite",
+      alt: "Bedroom Suite",
       category: "bedroom",
       description:
-        "Spacious master bedroom with premium king-size bed and luxury linens",
+        "Spacious bedroom with premium king-size bed and luxury linens",
     },
     {
       src: "/bedroom/able (19).jpg?height=600&width=800",
-      alt: "Master Bedroom Suite",
+      alt: "Bedroom Suite",
       category: "bedroom",
       description:
-        "Spacious master bedroom with premium king-size bed and luxury linens",
+        "Spacious bedroom with premium king-size bed and luxury linens",
     },
     {
       src: "/bedroom/able (23).jpg?height=600&width=800",
-      alt: "Master Bedroom Suite",
+      alt: "Bedroom Suite",
       category: "bedroom",
       description:
-        "Spacious master bedroom with premium king-size bed and luxury linens",
+        "Spacious bedroom with premium king-size bed and luxury linens",
     },
     {
       src: "/bedroom/able (24).jpg?height=600&width=800",
-      alt: "Master Bedroom Suite",
+      alt: "Bedroom Suite",
       category: "bedroom",
       description:
-        "Spacious master bedroom with premium king-size bed and luxury linens",
+        "Spacious bedroom with premium king-size bed and luxury linens",
     },
     {
       src: "/bedroom/able (25).jpg?height=600&width=800",
-      alt: "Master Bedroom Suite",
+      alt: "Bedroom Suite",
       category: "bedroom",
       description:
-        "Spacious master bedroom with premium king-size bed and luxury linens",
+        "Spacious bedroom with premium king-size bed and luxury linens",
     },
     {
       src: "/bedroom/able-2 (25).jpg?height=600&width=800",
-      alt: "Master Bedroom Suite",
+      alt: "Bedroom Suite",
       category: "bedroom",
       description:
-        "Spacious master bedroom with premium king-size bed and luxury linens",
+        "Spacious bedroom with premium king-size bed and luxury linens",
     },
     {
       src: "/bedroom/able-2 (29).jpg?height=600&width=800",
-      alt: "Master Bedroom Suite",
+      alt: "Bedroom Suite",
       category: "bedroom",
       description:
-        "Spacious master bedroom with premium king-size bed and luxury linens",
+        "Spacious bedroom with premium king-size bed and luxury linens",
     },
     {
       src: "/bedroom/able-2 (30).jpg?height=600&width=800",
-      alt: "Master Bedroom Suite",
+      alt: "Bedroom Suite",
       category: "bedroom",
       description:
-        "Spacious master bedroom with premium king-size bed and luxury linens",
+        "Spacious bedroom with premium king-size bed and luxury linens",
     },
 
     {
       src: "/kitchen/able (1).jpg?height=600&width=800",
-      alt: "Gourmet Kitchen",
+      alt: "Kitchen",
       category: "kitchen",
       description:
-        "Fully equipped chef's kitchen with high-end appliances and marble countertops",
+        "Fully equipped kitchen with high-end appliances and marble countertops",
     },
     {
       src: "/kitchen/able (10).jpg?height=600&width=800",
-      alt: "Gourmet Kitchen",
+      alt: "Kitchen",
       category: "kitchen",
       description:
-        "Fully equipped chef's kitchen with high-end appliances and marble countertops",
+        "Fully equipped kitchen with high-end appliances and marble countertops",
     },
     {
       src: "/kitchen/able (12).jpg?height=600&width=800",
-      alt: "Gourmet Kitchen",
+      alt: "Kitchen",
       category: "kitchen",
       description:
-        "Fully equipped chef's kitchen with high-end appliances and marble countertops",
+        "Fully equipped kitchen with high-end appliances and marble countertops",
     },
     {
       src: "/kitchen/able (13).jpg?height=600&width=800",
-      alt: "Gourmet Kitchen",
+      alt: "Kitchen",
       category: "kitchen",
       description:
-        "Fully equipped chef's kitchen with high-end appliances and marble countertops",
+        "Fully equipped kitchen with high-end appliances and marble countertops",
     },
     {
       src: "/kitchen/able (21).jpg?height=600&width=800",
-      alt: "Gourmet Kitchen",
+      alt: "Kitchen",
       category: "kitchen",
       description:
-        "Fully equipped chef's kitchen with high-end appliances and marble countertops",
+        "Fully equipped kitchen with high-end appliances and marble countertops",
     },
     {
       src: "/kitchen/able-2 (26).jpg?height=600&width=800",
-      alt: "Gourmet Kitchen",
+      alt: "Kitchen",
       category: "kitchen",
       description:
-        "Fully equipped chef's kitchen with high-end appliances and marble countertops",
+        "Fully equipped kitchen with high-end appliances and marble countertops",
     },
     {
       src: "/kitchen/able-2 (27).jpg?height=600&width=800",
-      alt: "Gourmet Kitchen",
+      alt: "Kitchen",
       category: "kitchen",
       description:
-        "Fully equipped chef's kitchen with high-end appliances and marble countertops",
+        "Fully equipped kitchen with high-end appliances and marble countertops",
     },
 
     // {
@@ -254,137 +254,159 @@ export function Gallery() {
 
     {
       src: "/outdoor/able-2 (1).jpg?height=600&width=800",
-      alt: "Private Balcony",
+      alt: "Private Compound",
       category: "outdoor",
-      description: "Serene balcony with breathtaking views of the surroundings",
+      description:
+        "Serene environment with breathtaking views of the surroundings",
     },
 
     {
       src: "/outdoor/able-2 (2).jpg?height=600&width=800",
-      alt: "Private Balcony",
+      alt: "Private Compound",
       category: "outdoor",
-      description: "Serene balcony with breathtaking views of the surroundings",
+      description:
+        "Serene environment with breathtaking views of the surroundings",
     },
 
     {
       src: "/outdoor/able-2 (3).jpg?height=600&width=800",
-      alt: "Private Balcony",
+      alt: "Private Compound",
       category: "outdoor",
-      description: "Serene balcony with breathtaking views of the surroundings",
+      description:
+        "Serene environment with breathtaking views of the surroundings",
     },
     {
       src: "/outdoor/able-2 (4).jpg?height=600&width=800",
-      alt: "Private Balcony",
+      alt: "Private Compound",
       category: "outdoor",
-      description: "Serene balcony with breathtaking views of the surroundings",
+      description:
+        "Serene environment with breathtaking views of the surroundings",
     },
     {
       src: "/outdoor/able-2 (5).jpg?height=600&width=800",
-      alt: "Private Balcony",
+      alt: "Private Compound",
       category: "outdoor",
-      description: "Serene balcony with breathtaking views of the surroundings",
+      description:
+        "Serene environment with breathtaking views of the surroundings",
     },
     {
       src: "/outdoor/able-2 (6).jpg?height=600&width=800",
-      alt: "Private Balcony",
+      alt: "Private Compound",
       category: "outdoor",
-      description: "Serene balcony with breathtaking views of the surroundings",
+      description:
+        "Serene environment with breathtaking views of the surroundings",
     },
     {
       src: "/outdoor/able-2 (7).jpg?height=600&width=800",
-      alt: "Private Balcony",
+      alt: "Private Compound",
       category: "outdoor",
-      description: "Serene balcony with breathtaking views of the surroundings",
+      description:
+        "Serene environment with breathtaking views of the surroundings",
     },
     {
       src: "/outdoor/able-2 (8).jpg?height=600&width=800",
-      alt: "Private Balcony",
+      alt: "Private Compound",
       category: "outdoor",
-      description: "Serene balcony with breathtaking views of the surroundings",
+      description:
+        "Serene environment with breathtaking views of the surroundings",
     },
     {
       src: "/outdoor/able-2 (9).jpg?height=600&width=800",
-      alt: "Private Balcony",
+      alt: "Private Compound",
       category: "outdoor",
-      description: "Serene balcony with breathtaking views of the surroundings",
+      description:
+        "Serene environment with breathtaking views of the surroundings",
     },
     {
       src: "/outdoor/able-2 (10).jpg?height=600&width=800",
-      alt: "Private Balcony",
+      alt: "Private Compound",
       category: "outdoor",
-      description: "Serene balcony with breathtaking views of the surroundings",
+      description:
+        "Serene environment with breathtaking views of the surroundings",
     },
     {
       src: "/outdoor/able-2 (11).jpg?height=600&width=800",
-      alt: "Private Balcony",
+      alt: "Private Compound",
       category: "outdoor",
-      description: "Serene balcony with breathtaking views of the surroundings",
+      description:
+        "Serene environment with breathtaking views of the surroundings",
     },
     {
       src: "/outdoor/able-2 (12).jpg?height=600&width=800",
-      alt: "Private Balcony",
+      alt: "Private Compound",
       category: "outdoor",
-      description: "Serene balcony with breathtaking views of the surroundings",
+      description:
+        "Serene environment with breathtaking views of the surroundings",
     },
     {
       src: "/outdoor/able-2 (13).jpg?height=600&width=800",
-      alt: "Private Balcony",
+      alt: "Private Compound",
       category: "outdoor",
-      description: "Serene balcony with breathtaking views of the surroundings",
+      description:
+        "Serene environment with breathtaking views of the surroundings",
     },
     {
       src: "/outdoor/able-2 (14).jpg?height=600&width=800",
-      alt: "Private Balcony",
+      alt: "Private Compound",
       category: "outdoor",
-      description: "Serene balcony with breathtaking views of the surroundings",
+      description:
+        "Serene environment with breathtaking views of the surroundings",
     },
     {
       src: "/outdoor/able-2 (15).jpg?height=600&width=800",
-      alt: "Private Balcony",
+      alt: "Private Compound",
       category: "outdoor",
-      description: "Serene balcony with breathtaking views of the surroundings",
+      description:
+        "Serene environment with breathtaking views of the surroundings",
     },
     {
       src: "/outdoor/able-2 (16).jpg?height=600&width=800",
-      alt: "Private Balcony",
+      alt: "Private Compound",
       category: "outdoor",
-      description: "Serene balcony with breathtaking views of the surroundings",
+      description:
+        "Serene environment with breathtaking views of the surroundings",
     },
     {
       src: "/outdoor/able-2 (17).jpg?height=600&width=800",
-      alt: "Private Balcony",
+      alt: "Private Compound",
       category: "outdoor",
-      description: "Serene balcony with breathtaking views of the surroundings",
+      description:
+        "Serene environment with breathtaking views of the surroundings",
     },
     {
       src: "/outdoor/able-2 (18).jpg?height=600&width=800",
-      alt: "Private Balcony",
+      alt: "Private Compound",
       category: "outdoor",
-      description: "Serene balcony with breathtaking views of the surroundings",
+      description:
+        "Serene environment with breathtaking views of the surroundings",
     },
     {
       src: "/outdoor/able-2 (19).jpg?height=600&width=800",
-      alt: "Private Balcony",
+      alt: "Private Compound",
       category: "outdoor",
-      description: "Serene balcony with breathtaking views of the surroundings",
+      description:
+        "Serene environment with breathtaking views of the surroundings",
     },
     {
       src: "/outdoor/able-2 (20).jpg?height=600&width=800",
-      alt: "Private Balcony",
+      alt: "Private Compound",
       category: "outdoor",
-      description: "Serene balcony with breathtaking views of the surroundings",
+      description:
+        "Serene environment with breathtaking views of the surroundings",
     },
     {
       src: "/outdoor/able-2 (21).jpg?height=600&width=800",
-      alt: "Private Balcony",
+      alt: "Private Compound",
       category: "outdoor",
-      description: "Serene balcony with breathtaking views of the surroundings",
+      description:
+        "Serene environment with breathtaking views of the surroundings",
     },
     {
       src: "/outdoor/able-2 (24).jpg?height=600&width=800",
-      alt: "Private Balcony",
+      alt: "Private Compound",
       category: "outdoor",
-      description: "Serene balcony with breathtaking views of the surroundings",
+      description:
+        "Serene environment with breathtaking views of the surroundings",
     },
   ];
 
@@ -434,10 +456,7 @@ export function Gallery() {
   };
 
   return (
-    <section
-      id="gallery"
-      className="py-24 relative overflow-hidden bg-black"
-    >
+    <section id="gallery" className="py-24 relative overflow-hidden bg-black">
       {/* Decorative Elements */}
       <div className="absolute inset-0 opacity-20">
         {Array.from({ length: 50 }).map((_, i) => (
