@@ -244,53 +244,147 @@ export function Gallery() {
         "Fully equipped chef's kitchen with high-end appliances and marble countertops",
     },
 
+    // {
+    //   src: "able (1).jpg?height=600&width=800",
+    //   alt: "Spa-like Bathroom",
+    //   category: "bathroom",
+    //   description:
+    //     "Luxurious bathroom with rainfall shower and premium fixtures",
+    // },
 
-
-
-
-    
     {
-      src: "able (1).jpg?height=600&width=800",
-      alt: "Spa-like Bathroom",
-      category: "bathroom",
-      description:
-        "Luxurious bathroom with rainfall shower and premium fixtures",
+      src: "able-2 (1).jpg?height=600&width=800",
+      alt: "Private Balcony",
+      category: "outdoor",
+      description: "Serene balcony with breathtaking views of the surroundings",
     },
+
     {
-      src: "able (1).jpg?height=600&width=800",
-      alt: "Dining Area",
-      category: "living",
-      description: "Stylish dining space perfect for entertaining guests",
+      src: "able-2 (2).jpg?height=600&width=800",
+      alt: "Private Balcony",
+      category: "outdoor",
+      description: "Serene balcony with breathtaking views of the surroundings",
     },
+
     {
-      src: "able (1).jpg?height=600&width=800",
+      src: "able-2 (3).jpg?height=600&width=800",
       alt: "Private Balcony",
       category: "outdoor",
       description: "Serene balcony with breathtaking views of the surroundings",
     },
     {
-      src: "able (1).jpg?height=600&width=800",
-      alt: "Guest Bedroom",
-      category: "bedroom",
-      description: "Comfortable guest bedroom with premium amenities",
+      src: "able-2 (4).jpg?height=600&width=800",
+      alt: "Private Balcony",
+      category: "outdoor",
+      description: "Serene balcony with breathtaking views of the surroundings",
     },
     {
-      src: "able (1).jpg?height=600&width=800",
-      alt: "Kitchen Island",
-      category: "kitchen",
-      description: "Spacious kitchen island perfect for meal preparation",
+      src: "able-2 (5).jpg?height=600&width=800",
+      alt: "Private Balcony",
+      category: "outdoor",
+      description: "Serene balcony with breathtaking views of the surroundings",
     },
     {
-      src: "able (1).jpg?height=600&width=800",
-      alt: "Guest Bathroom",
-      category: "bathroom",
-      description: "Elegant guest bathroom with modern fixtures",
+      src: "able-2 (6).jpg?height=600&width=800",
+      alt: "Private Balcony",
+      category: "outdoor",
+      description: "Serene balcony with breathtaking views of the surroundings",
     },
     {
-      src: "able (1).jpg?height=600&width=800",
-      alt: "Lounge Area",
-      category: "living",
-      description: "Cozy lounge area for relaxation and entertainment",
+      src: "able-2 (7).jpg?height=600&width=800",
+      alt: "Private Balcony",
+      category: "outdoor",
+      description: "Serene balcony with breathtaking views of the surroundings",
+    },
+    {
+      src: "able-2 (8).jpg?height=600&width=800",
+      alt: "Private Balcony",
+      category: "outdoor",
+      description: "Serene balcony with breathtaking views of the surroundings",
+    },
+    {
+      src: "able-2 (9).jpg?height=600&width=800",
+      alt: "Private Balcony",
+      category: "outdoor",
+      description: "Serene balcony with breathtaking views of the surroundings",
+    },
+    {
+      src: "able-2 (10).jpg?height=600&width=800",
+      alt: "Private Balcony",
+      category: "outdoor",
+      description: "Serene balcony with breathtaking views of the surroundings",
+    },
+    {
+      src: "able-2 (11).jpg?height=600&width=800",
+      alt: "Private Balcony",
+      category: "outdoor",
+      description: "Serene balcony with breathtaking views of the surroundings",
+    },
+    {
+      src: "able-2 (12).jpg?height=600&width=800",
+      alt: "Private Balcony",
+      category: "outdoor",
+      description: "Serene balcony with breathtaking views of the surroundings",
+    },
+    {
+      src: "able-2 (13).jpg?height=600&width=800",
+      alt: "Private Balcony",
+      category: "outdoor",
+      description: "Serene balcony with breathtaking views of the surroundings",
+    },
+    {
+      src: "able-2 (14).jpg?height=600&width=800",
+      alt: "Private Balcony",
+      category: "outdoor",
+      description: "Serene balcony with breathtaking views of the surroundings",
+    },
+    {
+      src: "able-2 (15).jpg?height=600&width=800",
+      alt: "Private Balcony",
+      category: "outdoor",
+      description: "Serene balcony with breathtaking views of the surroundings",
+    },
+    {
+      src: "able-2 (16).jpg?height=600&width=800",
+      alt: "Private Balcony",
+      category: "outdoor",
+      description: "Serene balcony with breathtaking views of the surroundings",
+    },
+    {
+      src: "able-2 (17).jpg?height=600&width=800",
+      alt: "Private Balcony",
+      category: "outdoor",
+      description: "Serene balcony with breathtaking views of the surroundings",
+    },
+    {
+      src: "able-2 (18).jpg?height=600&width=800",
+      alt: "Private Balcony",
+      category: "outdoor",
+      description: "Serene balcony with breathtaking views of the surroundings",
+    },
+    {
+      src: "able-2 (19).jpg?height=600&width=800",
+      alt: "Private Balcony",
+      category: "outdoor",
+      description: "Serene balcony with breathtaking views of the surroundings",
+    },
+    {
+      src: "able-2 (20).jpg?height=600&width=800",
+      alt: "Private Balcony",
+      category: "outdoor",
+      description: "Serene balcony with breathtaking views of the surroundings",
+    },
+    {
+      src: "able-2 (21).jpg?height=600&width=800",
+      alt: "Private Balcony",
+      category: "outdoor",
+      description: "Serene balcony with breathtaking views of the surroundings",
+    },
+    {
+      src: "able-2 (24).jpg?height=600&width=800",
+      alt: "Private Balcony",
+      category: "outdoor",
+      description: "Serene balcony with breathtaking views of the surroundings",
     },
   ];
 
