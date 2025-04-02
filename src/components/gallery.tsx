@@ -202,6 +202,54 @@ export function Gallery() {
         "Fully equipped chef's kitchen with high-end appliances and marble countertops",
     },
     {
+      src: "able (10).jpg?height=600&width=800",
+      alt: "Gourmet Kitchen",
+      category: "kitchen",
+      description:
+        "Fully equipped chef's kitchen with high-end appliances and marble countertops",
+    },
+    {
+      src: "able (12).jpg?height=600&width=800",
+      alt: "Gourmet Kitchen",
+      category: "kitchen",
+      description:
+        "Fully equipped chef's kitchen with high-end appliances and marble countertops",
+    },
+    {
+      src: "able (13).jpg?height=600&width=800",
+      alt: "Gourmet Kitchen",
+      category: "kitchen",
+      description:
+        "Fully equipped chef's kitchen with high-end appliances and marble countertops",
+    },
+    {
+      src: "able (21).jpg?height=600&width=800",
+      alt: "Gourmet Kitchen",
+      category: "kitchen",
+      description:
+        "Fully equipped chef's kitchen with high-end appliances and marble countertops",
+    },
+    {
+      src: "able-2 (26).jpg?height=600&width=800",
+      alt: "Gourmet Kitchen",
+      category: "kitchen",
+      description:
+        "Fully equipped chef's kitchen with high-end appliances and marble countertops",
+    },
+    {
+      src: "able-2 (27).jpg?height=600&width=800",
+      alt: "Gourmet Kitchen",
+      category: "kitchen",
+      description:
+        "Fully equipped chef's kitchen with high-end appliances and marble countertops",
+    },
+
+
+
+
+
+    
+    {
       src: "able (1).jpg?height=600&width=800",
       alt: "Spa-like Bathroom",
       category: "bathroom",
