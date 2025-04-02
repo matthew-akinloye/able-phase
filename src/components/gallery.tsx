@@ -110,12 +110,90 @@ export function Gallery() {
     },
 
     {
-      src: "able (1).jpg?height=600&width=800",
+      src: "able (2).jpg?height=600&width=800",
       alt: "Master Bedroom Suite",
       category: "bedroom",
       description:
         "Spacious master bedroom with premium king-size bed and luxury linens",
     },
+    {
+      src: "able (3).jpg?height=600&width=800",
+      alt: "Master Bedroom Suite",
+      category: "bedroom",
+      description:
+        "Spacious master bedroom with premium king-size bed and luxury linens",
+    },
+    {
+      src: "able (15).jpg?height=600&width=800",
+      alt: "Master Bedroom Suite",
+      category: "bedroom",
+      description:
+        "Spacious master bedroom with premium king-size bed and luxury linens",
+    },
+    {
+      src: "able (16).jpg?height=600&width=800",
+      alt: "Master Bedroom Suite",
+      category: "bedroom",
+      description:
+        "Spacious master bedroom with premium king-size bed and luxury linens",
+    },
+    {
+      src: "able (17).jpg?height=600&width=800",
+      alt: "Master Bedroom Suite",
+      category: "bedroom",
+      description:
+        "Spacious master bedroom with premium king-size bed and luxury linens",
+    },
+    {
+      src: "able (19).jpg?height=600&width=800",
+      alt: "Master Bedroom Suite",
+      category: "bedroom",
+      description:
+        "Spacious master bedroom with premium king-size bed and luxury linens",
+    },
+    {
+      src: "able (23).jpg?height=600&width=800",
+      alt: "Master Bedroom Suite",
+      category: "bedroom",
+      description:
+        "Spacious master bedroom with premium king-size bed and luxury linens",
+    },
+    {
+      src: "able (24).jpg?height=600&width=800",
+      alt: "Master Bedroom Suite",
+      category: "bedroom",
+      description:
+        "Spacious master bedroom with premium king-size bed and luxury linens",
+    },
+    {
+      src: "able (25).jpg?height=600&width=800",
+      alt: "Master Bedroom Suite",
+      category: "bedroom",
+      description:
+        "Spacious master bedroom with premium king-size bed and luxury linens",
+    },
+    {
+      src: "able-2 (25).jpg?height=600&width=800",
+      alt: "Master Bedroom Suite",
+      category: "bedroom",
+      description:
+        "Spacious master bedroom with premium king-size bed and luxury linens",
+    },
+    {
+      src: "able-2 (29).jpg?height=600&width=800",
+      alt: "Master Bedroom Suite",
+      category: "bedroom",
+      description:
+        "Spacious master bedroom with premium king-size bed and luxury linens",
+    },
+    {
+      src: "able-2 (30).jpg?height=600&width=800",
+      alt: "Master Bedroom Suite",
+      category: "bedroom",
+      description:
+        "Spacious master bedroom with premium king-size bed and luxury linens",
+    },
+
     {
       src: "able (1).jpg?height=600&width=800",
       alt: "Gourmet Kitchen",
