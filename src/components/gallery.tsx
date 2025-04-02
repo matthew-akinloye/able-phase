@@ -25,7 +25,7 @@ export function Gallery() {
 
   const images = [
     {
-      src: "/able (5).jpg?height=600&width=800",
+      src: "/living/able (5).jpg?height=600&width=800",
       alt: "Luxurious Living Room",
       category: "living",
       description:
