@@ -9,7 +9,7 @@ export function Hero() {
         className="absolute inset-0 bg-cover bg-center z-0"
         style={{
           backgroundImage:
-            "url('https://crm.roongtadevelopers.com/app/admin/assets/images/blog/1723200045.jpg?height=1080&width=1920')",
+            "url('able (18).jpg?height=1080&width=1920')",
           filter: "brightness(0.6)",
         }}
       />
