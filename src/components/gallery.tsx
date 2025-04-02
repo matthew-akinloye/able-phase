@@ -25,65 +25,143 @@ export function Gallery() {
 
   const images = [
     {
-      src: "https://www.confident-group.com/wp-content/uploads/2023/12/shutterstock_1707640288-1.jpg?height=600&width=800",
+      src: "able (5).jpg?height=600&width=800",
       alt: "Luxurious Living Room",
       category: "living",
       description:
         "Elegant living space with designer furniture and ambient lighting",
     },
     {
-      src: "https://www.confident-group.com/wp-content/uploads/2023/12/shutterstock_1707640288-1.jpg?height=600&width=800",
+      src: "able (6).jpg?height=600&width=800",
+      alt: "Luxurious Living Room",
+      category: "living",
+      description:
+        "Elegant living space with designer furniture and ambient lighting",
+    },
+    {
+      src: "able (7).jpg?height=600&width=800",
+      alt: "Luxurious Living Room",
+      category: "living",
+      description:
+        "Elegant living space with designer furniture and ambient lighting",
+    },
+    {
+      src: "able (8).jpg?height=600&width=800",
+      alt: "Luxurious Living Room",
+      category: "living",
+      description:
+        "Elegant living space with designer furniture and ambient lighting",
+    },
+    {
+      src: "able (9).jpg?height=600&width=800",
+      alt: "Luxurious Living Room",
+      category: "living",
+      description:
+        "Elegant living space with designer furniture and ambient lighting",
+    },
+    {
+      src: "able (11).jpg?height=600&width=800",
+      alt: "Luxurious Living Room",
+      category: "living",
+      description:
+        "Elegant living space with designer furniture and ambient lighting",
+    },
+    {
+      src: "able (14).jpg?height=600&width=800",
+      alt: "Luxurious Living Room",
+      category: "living",
+      description:
+        "Elegant living space with designer furniture and ambient lighting",
+    },
+    {
+      src: "able (20).jpg?height=600&width=800",
+      alt: "Luxurious Living Room",
+      category: "living",
+      description:
+        "Elegant living space with designer furniture and ambient lighting",
+    },
+    {
+      src: "able (22).jpg?height=600&width=800",
+      alt: "Luxurious Living Room",
+      category: "living",
+      description:
+        "Elegant living space with designer furniture and ambient lighting",
+    },
+    {
+      src: "able-2 (22).jpg?height=600&width=800",
+      alt: "Luxurious Living Room",
+      category: "living",
+      description:
+        "Elegant living space with designer furniture and ambient lighting",
+    },
+    {
+      src: "able-2 (23).jpg?height=600&width=800",
+      alt: "Luxurious Living Room",
+      category: "living",
+      description:
+        "Elegant living space with designer furniture and ambient lighting",
+    },
+    {
+      src: "able-2 (28).jpg?height=600&width=800",
+      alt: "Luxurious Living Room",
+      category: "living",
+      description:
+        "Elegant living space with designer furniture and ambient lighting",
+    },
+
+    {
+      src: "able (1).jpg?height=600&width=800",
       alt: "Master Bedroom Suite",
       category: "bedroom",
       description:
         "Spacious master bedroom with premium king-size bed and luxury linens",
     },
     {
-      src: "https://www.confident-group.com/wp-content/uploads/2023/12/shutterstock_1707640288-1.jpg?height=600&width=800",
+      src: "able (1).jpg?height=600&width=800",
       alt: "Gourmet Kitchen",
       category: "kitchen",
       description:
         "Fully equipped chef's kitchen with high-end appliances and marble countertops",
     },
     {
-      src: "https://www.confident-group.com/wp-content/uploads/2023/12/shutterstock_1707640288-1.jpg?height=600&width=800",
+      src: "able (1).jpg?height=600&width=800",
       alt: "Spa-like Bathroom",
       category: "bathroom",
       description:
         "Luxurious bathroom with rainfall shower and premium fixtures",
     },
     {
-      src: "https://www.confident-group.com/wp-content/uploads/2023/12/shutterstock_1707640288-1.jpg?height=600&width=800",
+      src: "able (1).jpg?height=600&width=800",
       alt: "Dining Area",
       category: "living",
       description: "Stylish dining space perfect for entertaining guests",
     },
     {
-      src: "https://www.confident-group.com/wp-content/uploads/2023/12/shutterstock_1707640288-1.jpg?height=600&width=800",
+      src: "able (1).jpg?height=600&width=800",
       alt: "Private Balcony",
       category: "outdoor",
       description: "Serene balcony with breathtaking views of the surroundings",
     },
     {
-      src: "https://www.confident-group.com/wp-content/uploads/2023/12/shutterstock_1707640288-1.jpg?height=600&width=800",
+      src: "able (1).jpg?height=600&width=800",
       alt: "Guest Bedroom",
       category: "bedroom",
       description: "Comfortable guest bedroom with premium amenities",
     },
     {
-      src: "https://www.confident-group.com/wp-content/uploads/2023/12/shutterstock_1707640288-1.jpg?height=600&width=800",
+      src: "able (1).jpg?height=600&width=800",
       alt: "Kitchen Island",
       category: "kitchen",
       description: "Spacious kitchen island perfect for meal preparation",
     },
     {
-      src: "https://www.confident-group.com/wp-content/uploads/2023/12/shutterstock_1707640288-1.jpg?height=600&width=800",
+      src: "able (1).jpg?height=600&width=800",
       alt: "Guest Bathroom",
       category: "bathroom",
       description: "Elegant guest bathroom with modern fixtures",
     },
     {
-      src: "https://www.confident-group.com/wp-content/uploads/2023/12/shutterstock_1707640288-1.jpg?height=600&width=800",
+      src: "able (1).jpg?height=600&width=800",
       alt: "Lounge Area",
       category: "living",
       description: "Cozy lounge area for relaxation and entertainment",
@@ -198,7 +276,7 @@ export function Gallery() {
               <div className="absolute inset-0 bg-gradient-to-t from-black-900/80 via-transparent to-transparent z-10"></div>
               <div className="relative h-full w-full">
                 <Image
-                  src={image.src || "https://www.confident-group.com/wp-content/uploads/2023/12/shutterstock_1707640288-1.jpg"}
+                  src={image.src || "able (1).jpg"}
                   alt={image.alt}
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
@@ -236,7 +314,7 @@ export function Gallery() {
                   onClick={() => setSelectedImage(index)}
                 >
                   <Image
-                    src={image.src || "https://www.confident-group.com/wp-content/uploads/2023/12/shutterstock_1707640288-1.jpg"}
+                    src={image.src || "able (1).jpg"}
                     alt={image.alt}
                     fill
                     className="object-cover"
@@ -279,7 +357,7 @@ export function Gallery() {
 
             <div className="relative w-full max-w-5xl h-[80vh]">
               <Image
-                src={filteredImages[selectedImage].src || "https://www.confident-group.com/wp-content/uploads/2023/12/shutterstock_1707640288-1.jpg"}
+                src={filteredImages[selectedImage].src || "able (1).jpg"}
                 alt={filteredImages[selectedImage].alt}
                 fill
                 className="object-contain"
