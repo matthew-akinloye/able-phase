@@ -1,8 +1,72 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Phone, Mail, Instagram, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import React, { useState } from "react";
 
 export function Contact() {
+  // Initialize form state
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [formStatus, setFormStatus] = useState<string | null>(null);
+
+  // Handle form input changes
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
+
+  // Basic form validation
+  const validateForm = () => {
+    const { name, email, message } = formData;
+    if (!name || !email || !message) {
+      setFormStatus("Please fill out all fields.");
+      return false;
+    }
+    return true;
+  };
+
+  // Handle form submission (redirect to WhatsApp with pre-filled message)
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+
+    // Check if the form is valid
+    if (!validateForm()) {
+      return;
+    }
+
+    setIsSubmitting(true);
+    setFormStatus(null); // Reset status
+
+    // Format the message to send via WhatsApp
+    const { name, email, message } = formData;
+    const whatsappMessage = `
+    Hello, my name is ${name}.I was redirected here from the ABLE PHASE 1 website,
+    Email: ${email}
+    Message: ${message}
+  `.trim();
+
+    // Encode the message for URL
+    const encodedMessage = encodeURIComponent(whatsappMessage);
+
+    // WhatsApp URL
+    const whatsappUrl = `https://wa.me/08079531292?text=${encodedMessage}`;
+
+    // Redirect the user to WhatsApp with the pre-filled message
+    window.location.href = whatsappUrl;
+
+    // Simulate success status
+    setFormStatus("Your message is being sent to WhatsApp...");
+    setIsSubmitting(false);
+  };
+
   return (
     <section id="contact" className="py-20 bg-gray-900 text-white">
       <div className="container mx-auto px-4">
@@ -82,10 +146,7 @@ export function Contact() {
           <div className="bg-gray-800 p-8 rounded-lg shadow-lg">
             <h3 className="text-2xl font-bold mb-6">Send a Message</h3>
 
-            <form
-              className="space-y-6"
-              action="mailto:Ableluxuryapartment@gmail.com"
-            >
+            <form className="space-y-6" onSubmit={handleSubmit}>
               <div>
                 <label
                   htmlFor="contact-name"
@@ -95,8 +156,12 @@ export function Contact() {
                 </label>
                 <input
                   id="contact-name"
+                  name="name"
                   className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-md focus:ring-2 focus:ring-yellow-500 focus:border-transparent outline-none"
                   placeholder="John Doe"
+                  value={formData.name}
+                  onChange={handleChange}
+                  required
                 />
               </div>
 
@@ -109,9 +174,13 @@ export function Contact() {
                 </label>
                 <input
                   id="contact-email"
+                  name="email"
                   type="email"
                   className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-md focus:ring-2 focus:ring-yellow-500 focus:border-transparent outline-none"
                   placeholder="john@example.com"
+                  value={formData.email}
+                  onChange={handleChange}
+                  required
                 />
               </div>
 
@@ -124,14 +193,31 @@ export function Contact() {
                 </label>
                 <textarea
                   id="contact-message"
+                  name="message"
                   rows={4}
                   className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-md focus:ring-2 focus:ring-yellow-500 focus:border-transparent outline-none resize-none"
                   placeholder="How can we help you?"
+                  value={formData.message}
+                  onChange={handleChange}
+                  required
                 ></textarea>
               </div>
 
-              <Button className="w-full bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-3">
-                Send Message
+              {formStatus && (
+                <div
+                  className={`text-center ${formStatus.includes("success") ? "text-green-500" : "text-red-500"
+                    }`}
+                >
+                  {formStatus}
+                </div>
+              )}
+
+              <Button
+                type="submit"
+                className="w-full bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-3"
+                disabled={isSubmitting}
+              >
+                {isSubmitting ? "Sending..." : "Send Message"}
               </Button>
             </form>
           </div>

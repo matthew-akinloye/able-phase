@@ -5,8 +5,8 @@ import Link from "next/link";
 export function Rates() {
   const plans = [
     {
-      title: "Daily",
-      price: "₦15,000",
+      title: "Lodging Package",
+      price: "₦150,000",
       features: [
         "All amenities included",
         "24/7 security",
@@ -17,26 +17,24 @@ export function Rates() {
       popular: false,
     },
     {
-      title: "Weekly",
-      price: "₦90,000",
+      title: "Event Package",
+      price: "₦200,000",
       features: [
-        "All daily features",
-        "Complimentary cleaning",
-        "10% discount applied",
-        "Welcome package",
-        "Free parking",
+        "All Lodging Package features",
+        "Caution Fee of ₦50,000",
+        "Caution Fee Refundable",
       ],
       popular: true,
     },
     {
-      title: "Monthly",
-      price: "₦300,000",
+      title: "Payment Terms",
+      price: "",
       features: [
-        "All weekly features",
-        "Bi-weekly cleaning",
-        "20% discount applied",
-        "Airport pickup",
-        "Extended checkout",
+        "All prices are subject to change without notice",
+        "Caution fees are refundable upon checkout, provided no damages are incurred",
+        "Payments can be made via bank transfer, credit/debit card.",
+        "Prices are inclusive of VAT and other applicable taxes",
+        "Able Phase 1 Luxury Apartment reserves the right to modify or cancel any booking due to unforeseen circumstances.",
       ],
       popular: false,
     },

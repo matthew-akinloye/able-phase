@@ -8,14 +8,14 @@ import { X, ChevronLeft, ChevronRight } from "lucide-react";
 
 export function Gallery() {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
-  const [activeCategory, setActiveCategory] = useState("all");
+  const [activeCategory, setActiveCategory] = useState("living");
   const sliderRef = useRef<HTMLDivElement>(null);
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(0);
   const [scrollLeft, setScrollLeft] = useState(0);
 
   const categories = [
-    { id: "all", name: "All Spaces" },
+    // { id: "all", name: "All Spaces" },
     { id: "living", name: "Living Areas" },
     { id: "bedroom", name: "Bedrooms" },
     { id: "kitchen", name: "Kitchen" },
