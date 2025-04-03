@@ -41,6 +41,7 @@ export function Contact() {
     if (!validateForm()) {
       return;
     }
+    
 
     setIsSubmitting(true);
     setFormStatus(null); // Reset status
