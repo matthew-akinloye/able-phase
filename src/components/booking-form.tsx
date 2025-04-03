@@ -64,7 +64,7 @@ export function BookingForm() {
     const encodedMessage = encodeURIComponent(message);
 
     // Generate WhatsApp URL
-    const whatsappUrl = `https://wa.me/+2348079531292?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/+2348027113707?text=${encodedMessage}`;
 
     // Simulate API call
     setTimeout(() => {
