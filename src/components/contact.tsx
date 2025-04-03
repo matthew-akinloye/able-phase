@@ -58,7 +58,7 @@ export function Contact() {
     const encodedMessage = encodeURIComponent(whatsappMessage);
 
     // WhatsApp URL
-    const whatsappUrl = `https://wa.me/08079531292?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/+2348027113707?text=${encodedMessage}`;
 
     // Redirect the user to WhatsApp with the pre-filled message
     window.location.href = whatsappUrl;
