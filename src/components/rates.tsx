@@ -13,6 +13,8 @@ export function Rates() {
         "Free Wi-Fi",
         "Cable TV",
         "Fully equipped kitchen",
+        "Caution Fee of ₦50,000",
+        "Caution Fee Refundable",
       ],
       popular: false,
     },
