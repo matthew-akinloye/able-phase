@@ -67,7 +67,7 @@ export default function Home() {
         onLoad={handleAOSLoad}
       />
 
-      <main className="min-h-screen opacity-0 overflow-hidden">
+      <main className="min-h-screen overflow-hidden">
         <Hero />
         <Amenities />
         <Gallery />
